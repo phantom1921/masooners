@@ -38,7 +38,7 @@ class AwardsController extends Controller
         $award = Award::create($request->all());
 
         if ($request->input('image', false)) {
-            $award->addMedia(storage_path('tmp/uploads/' . basename($request->input('image'))))->toMediaCollection('image');
+            // $award->addMedia(storage_path('tmp/uploads/' . basename($request->input('image'))))->toMediaCollection('image');
         }
 
         if ($media = $request->input('ck-media', false)) {
