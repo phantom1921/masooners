@@ -13,6 +13,7 @@ class CreateProfessionalDetailsTable extends Migration
             $table->string('business_name');
             $table->string('phone');
             $table->string('country');
+            $table->string('subcategory_id')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });
