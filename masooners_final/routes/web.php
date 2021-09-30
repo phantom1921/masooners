@@ -14,7 +14,7 @@ Route::get('/', 'userfrontend\findindex@landingpage')->name('landingpage.open');
 Route::get('/form', 'userfrontend\findindex@form')->name('form.open');
 Route::get('/shopping', 'userfrontend\findindex@shopping')->name('shopping.open');
 
-Route::post('stepform', 'userfrontend\findindex@inquiry')->name('inquiry.open');
+// Route::post('stepform', 'userfrontend\findindex@inquiry')->name('inquiry.open');
 
 
 
