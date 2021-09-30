@@ -1,0 +1,380 @@
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap'); */
+
+.containerstepform{
+    width: 770px;
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 50px 35px 10px 35px;
+  }
+
+  .containerstepform header{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 0 30px 0;
+  }
+  .containerstepform .form-outer{
+    width: 100%;
+    overflow: hidden;
+  }
+  .containerstepform .form-outer form{
+    display: flex;
+    width: 800%;
+  }
+  /* .form-outer form .page{
+    width: 100%;
+    transition: margin-left 0.3s ease-in-out;
+
+  } */
+  .form-outer form .page .title{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .form-outer form .page .field{
+    width: 330px;
+    height: 45px;
+    margin: 45px 0;
+    display: flex;
+    position: relative;
+  }
+  form .page .field .label{
+    position: absolute;
+    top: -30px;
+    font-weight: 500;
+  }
+  form .page .field input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+  form .page .field select{
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  form .page .field button{
+    width: 100%;
+    height: calc(100% + 5px);
+    border: none;
+    background: #006353;
+    margin-top: -20px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+  }
+  form .page .field button:hover{
+    background: #000;
+  }
+  form .page .btns button{
+    margin-top: -20px!important;
+  }
+  form .page .btns button.prev{
+    margin-right: 3px;
+    font-size: 17px;
+  }
+  form .page .btns button.next{
+    margin-left: 3px;
+  }
+
+  /* ==================================================== */
+  /* ==================================================== */
+  /* ==================================================== */
+
+
+  .slide-page
+  {
+    width: 770px !important;
+      transition: margin-left 0.3s ease-in-out;
+  }
+
+  .field_button
+  {
+    height: 45px;
+      margin: 45px 0;
+      display: flex;
+      position: relative;
+      border-top: 1px gray solid;
+      width: 100%;
+      margin-top: 30px;
+  }
+
+  .slide-page .title
+  {
+    font-size: 30px;
+    font-weight: 500;
+    width: 730px;
+  }
+
+
+  .field_button button{
+    height: calc(100% + 5px);
+      border: none;
+      background: #006353;
+      margin-top: 35px;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      transition: 0.5s ease;
+      margin-left: 25%;
+      width: 50%;
+  }
+
+  .field1
+  {
+    width: 50%;
+    height: 45px;
+    margin: 45px 0;
+    display: flex;
+    position: relative;
+    margin-left: 30%;
+    margin-top: 22px;
+    margin-bottom: 0px;
+  }
+
+  .field1 input{
+    height: 100%;
+      width: 100%;
+      border: 1px solid lightgrey;
+      border-radius: 5px;
+      font-size: 18px;
+  }
+
+  .field1 label
+  {
+    position: absolute;
+      font-weight: 500;
+  }
+
+  /* =================================== */
+  /* =================================== */
+  /* =================================== */
+  /* =================================== */
+  /* 2nd page */
+
+  .page2
+  {
+    width: 770px !important;
+      transition: margin-left 0.3s ease-in-out;
+      margin-left: 583px;
+  }
+
+  .page2 .title
+  {
+    font-size: 30px;
+    font-weight: 500;
+    width: 730px;
+  }
+
+  .page2 .field{
+    width: 70%;
+      height: 45px;
+      margin: 45px 0;
+      display: flex;
+      position: relative;
+      margin-left: 15%
+  }
+
+
+  .page2 .field input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+
+  .page2 button{
+    height: calc(100% + 5px);
+    border: none;
+    background: #006353;
+    margin-top: 35px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    margin-left: 5%;
+    width: 50%;
+  }
+
+  .page2 .list_1 .form-check
+  {
+    border: 1px solid gray;
+      margin: 5px;
+      text-align: left;
+      padding-left: 30px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+  }
+
+  .page2 .list_1
+  {
+    width: 600px;
+      margin-left: 100px;
+      margin-top: -67px;
+  }
+
+
+  /* ================================== */
+  /* =============page=3============ */
+  /* ================================== */
+
+  .page3
+  {
+    width: 770px !important;
+      transition: margin-left 0.3s ease-in-out;
+      margin-left: 650px;
+  }
+
+  .page3 .title
+  {
+    font-size: 30px;
+    font-weight: 500;
+    width: 730px;
+  }
+
+  .page3 .field{
+    width: 70%;
+      height: 45px;
+      margin: 45px 0;
+      display: flex;
+      position: relative;
+      margin-left: 15%
+  }
+
+
+  .page3 .field input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+
+  .page3 button{
+    height: calc(100% + 5px);
+    border: none;
+    background: #006353;
+    margin-top: 35px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    margin-left: 5%;
+    width: 50%;
+    margin-top: 180px;
+  }
+
+  .page3 .list_1 .form-check
+  {
+    border: 1px solid gray;
+      margin: 5px;
+      text-align: left;
+      padding-left: 30px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+  }
+
+  .page3 .list_1
+  {
+    width: 600px;
+      margin-left: 100px;
+      margin-top: -67px;
+  }
+
+  /* ====================================== */
+  /* =================page=4============ */
+  /* ====================================== */
+
+  .page4
+  {
+    width: 770px !important;
+      transition: margin-left 0.3s ease-in-out;
+      margin-left: 650px;
+  }
+
+  .page4 .title
+  {
+    font-size: 30px;
+    font-weight: 500;
+    width: 730px;
+  }
+
+  .page4 .field{
+    width: 70%;
+      height: 45px;
+      margin: 45px 0;
+      display: flex;
+      position: relative;
+      margin-left: 15%
+  }
+
+  .page4 .small{
+    width: 70%;
+      height: 0px;
+      margin: 45px 0;
+      display: flex;
+      position: relative;
+      margin-left: 15%
+  }
+
+
+  .page4 .field input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+
+  .page4 .field button{
+    height: calc(100% + 5px);
+    border: none;
+    background: #006353;
+    margin-top: 35px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    margin-left: 5%;
+    width: 50%;
+    margin-top: 55px;
+  }
+
+  .page4 .list_1 .form-check
+  {
+    border: 1px solid gray;
+      margin: 5px;
+      text-align: left;
+      padding-left: 30px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+  }

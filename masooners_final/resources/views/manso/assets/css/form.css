@@ -1,0 +1,184 @@
+.bgimg
+{
+  background-image: url(images/formbg.jpg);
+  background-position: center;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  width: 100%;
+}
+
+.displaytabel
+{
+  display: table;
+}
+
+.forminner-content
+{
+  margin: 32px auto 0;
+  overflow: visible;
+  clear: both;
+}
+
+.content-info
+{
+  display: inline-block;
+  width: 210px;
+  vertical-align: middle;
+  padding: 0 10px;
+}
+
+.info-step
+{
+  display: table;
+  height: 100%;
+}
+
+.content-step
+{
+  vertical-align: middle;
+  font-weight: 700;
+  font-size: 16px;
+  display: table-cell;
+}
+
+.circle
+{
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid;
+}
+
+.circletext
+{
+  font-weight: 700;
+  line-height: 30px;
+  padding-left: 9px;
+}
+
+.desc
+{
+  padding-left: 10px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.input_form
+{
+  height: auto;
+}
+
+.form_box
+{
+  max-width: 714px;
+  -webkit-box-shadow: 0 2px 4px rgb(0 0 0 / 20%);
+  box-shadow: 0 2px 4px rgb(0 0 0 / 20%);
+  margin: 23px auto 0;
+}
+
+.form_field
+{
+  vertical-align: top;
+  display: inline-block;
+  overflow: visible;
+  position: relative;
+  width: 60%;
+  margin-right: -4px;
+  padding-right: 0px;
+}
+
+.inner_box
+{
+  width: 100%;
+}
+
+.input_first
+{
+  height: 48px;
+  padding: 7px 16px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  border-right: 1px solid #e6e6e6;
+  border-radius: 3px 0 0 3px;
+  width: 100%;
+}
+
+.field-2
+{
+  vertical-align: top;
+  display: inline-block;
+  overflow: visible;
+  position: relative;
+  width: 20%;
+}
+
+.map_position
+{
+  top: 50% !important;
+  left: 9px !important;
+  color: #ababab !important;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute !important;
+}
+
+.maplocation
+{
+  padding-left: 30px !important;
+  height: 48px;
+  padding-right: 16px;
+  padding-bottom: 7px;
+  padding-left: 16px;
+  padding-top: 7px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.field-3
+{
+  width: 20%;
+  overflow: visible;
+  position: relative;
+  display: inline-block;
+  margin-left: -5px;
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 1px;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+.manso_searchbutton
+{
+  border-radius: 0 3px 3px 0;
+  height: 48px;
+  outline: none;
+  display: block;
+  width: 100%;
+  min-width: 125px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  font-weight: bold;
+  padding: 7px 16px;
+  background: #006353 !important;
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 1px;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+.hr-border
+{
+  border-bottom: solid rgb(196, 196, 196);
+  border-width: 1px;
+  width: 70px;
+}
+
+.bg_color
+{
+  background-color: #d3d3d3;
+}
